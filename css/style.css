@@ -3,6 +3,65 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header{
+    max-width: 1200px;
+    display: flex;
+    /*flex-direction: row;
+    justify-content:space-between;*/
+    padding-left: 71px;
+    padding-right: 72px;
+    background-color: gold;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav{
+   /* display: block;
+    max-width: max-content;*/
+    margin-top: 19px;
+    margin-bottom: 20px;
+    text-align: left;
+   }
+.nav-list{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 33px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000000;
+}
+.logo{
+
+    text-align: center;
+}
+.header a {
+    text-decoration: none;
+}
+.i_want_here {
+    margin-right: 72px;
+    text-align: right;
+    /*font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    min-width: 160px;
+    min-height: 37px;
+    background-color: #756257;
+    border-radius: 4px;*/
+
+}
+.i_want_here span{
+    font-size: 16px;
+    line-height: 21px;
+    margin: 9px 25px 10px 25px;
+}
+
+
 .container1{
     background-image: url("../images/index-background.svg");
     background-size: cover;
