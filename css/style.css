@@ -15,21 +15,21 @@
 .header{
     max-width: 100%;
     margin: auto;
-/*display: flex;*/
-    /*flex-direction: row;
-    justify-content:space-between;*/
-    /*padding-left: 71px;
-    padding-right: 72px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 71px;
+    padding-right: 72px;
     /*background-color: gold;*/
     /*margin-left: 40px;
     margin-right: 40px;*/
     /*text-align: center;*/
 }
 .header nav{
-   display: inline-block;
+  /* display: inline-block;*/
     margin-top: 19px;
     margin-bottom: 20px;
-    text-align: left;
+    /*text-align: left;*/
 
    }
 .nav-list{
@@ -42,7 +42,7 @@
 }
 .nav-item{
     display: inline-block;
-    margin-left: 33px;
+    margin-right: 33px;
 
 }
 .nav-link{
@@ -51,7 +51,7 @@
 }
 .logo img{
 
-    text-align: center;
+    /*text-align: center;*/
 
 }
 .header a {
@@ -61,24 +61,20 @@
 .i_want_here span{
     margin-top: 14px;
     margin-bottom: 14px;
-    margin-right: 72px;
-    text-align: right;
+  /*  margin-right: 72px;
+    text-align: right;*/
     padding: 9px 25px 10px 25px;
     font-weight: bold;
     text-transform: uppercase;
     color: #FFFFFF;
     max-width: 160px;
     min-height: 37px;
-
+    font-size: 16px;
+    line-height: 21px;
     border-radius: 4px;
 
 }
-.i_want_here span{
-    font-size: 16px;
-    line-height: 21px;
 
-
-}
 .heart{
     margin: 24px 33px 24px 21px;
 }
